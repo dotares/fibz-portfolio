@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="navbar-section flex p-8 place-content-between">
+    <div className="navbar-section text-xl flex p-8 place-content-between">
       <a className="brand-logo" href="#">
         brand
       </a>
