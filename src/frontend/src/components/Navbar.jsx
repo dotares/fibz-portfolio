@@ -1,22 +1,13 @@
 export default function Navbar() {
-  // NOTE: added text white only for testing purposes
-  // the flex is supposed to be intentional
-
-  // TODO: Fix the tailwind config content
-
   return (
-    <div className="navbar-section flex">
-      <div>
-        <a className="brand-logo text-white" href="#">
-          brand
-        </a>
-      </div>
-      <div>
+    <div className="navbar-section flex p-8 place-content-between">
+      <a className="brand-logo" href="#">
+        brand
+      </a>
+      <div className="space-x-8">
         <a className="about-link" href="#about">
           about
         </a>
-      </div>
-      <div>
         <a className="projects-link" href="#projects">
           projects
         </a>
