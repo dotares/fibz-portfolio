@@ -1,7 +1,9 @@
 export default function About() {
   return (
-    <div className="about-section">
-      <h2 className="secondary-header">A little about me</h2>
+    <div className="about-section bg-zinc-800">
+      <h2 className="secondary-header font-mono text-center text-2xl">
+        A little about me
+      </h2>
       <p className="paragraph-content">
         A full-stack developer with a passion for building beautiful and
         functional web applications. Proficient in the MERN stack, handling both
