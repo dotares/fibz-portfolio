@@ -13,7 +13,7 @@ export default function Hero() {
         </div>
         <h1 className="primary-header text-5xl font-mono mb-4">
           Hi, I'm <span className="text-orange-600 font-bold">Arish </span>aka
-          Fibz.
+          Fibz👋
         </h1>
         <h3 className="secondary-header font-mono text-2xl">
           Building digital products and experiences.
