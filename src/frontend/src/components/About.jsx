@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="about-section py-4 px-32 bg-gradient-to-b from-zinc-800 from-0% via-zinc-800 via-70% to-zinc-900 to-100%"
+      className="about-section py-4 pb-24 px-32 bg-gradient-to-b from-zinc-800 from-0% via-zinc-800 via-70% to-zinc-900 to-100%"
     >
       <h2 className="secondary-header font-mono text-center text-2xl">
         A little about <span className="text-orange-600">me</span> 👨‍💻
