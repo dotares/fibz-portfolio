@@ -8,7 +8,7 @@ export default function Hero() {
           <img
             src={heroImage}
             alt="Hero Image"
-            className="rounded-full bg-orange-600 shadow-xl mb-8 shadow-zinc-950 border-orange-600 border-2 h-32"
+            className="rounded-full bg-orange-600 shadow-xl mb-8 shadow-zinc-950 border-orange-600 border-2 h-52"
           />
         </div>
         <h1 className="primary-header text-4xl font-mono mb-4">
