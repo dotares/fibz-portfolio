@@ -3,18 +3,21 @@ import heroImage from "../assets/Fibbonachos-HERO.png";
 export default function Hero() {
   return (
     <>
-      <div className="hero-section flex items-center p-8">
+      <div className="hero-section flex flex-col place-items-center">
         <div>
-          <h1 className="primary-header">
-            Hi, I'm Fibz aka Arish, and I'm a REAL full-stack developer.
-          </h1>
-          <h3 className="tertiary-header">
-            Let's cut the crap and build something great together
-          </h3>
+          <img
+            src={heroImage}
+            alt="Hero Image"
+            className="rounded-full bg-orange-600 shadow-xl mb-8 shadow-zinc-950 border-orange-600 border-2 h-32"
+          />
         </div>
-        <div>
-          <img src={heroImage} alt="Hero Image" />
-        </div>
+        <h1 className="primary-header text-4xl font-mono mb-4">
+          Hi, I'm <span className="text-orange-600 font-bold">Arish </span>aka
+          Fibz.
+        </h1>
+        <h3 className="secondary-header font-mono text-xl">
+          Building digital products and experiences.
+        </h3>
       </div>
     </>
   );
