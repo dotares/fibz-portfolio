@@ -1,6 +1,6 @@
 export default function Marquee() {
     return (
-        <div className="bg-zinc-800 flex flex-col mt-12 py-14 text-5xl space-y-5 text-orange-100 place-items-center items-center overflow-hidden">
+        <div className="bg-zinc-800 flex flex-col mt-12 py-8 sm:py-14 text-4xl sm:text-5xl space-y-5 text-orange-100 place-items-center items-center overflow-hidden">
             <div className="whitespace-nowrap space-x-14">
                 <i className="devicon-tailwindcss-original-wordmark"></i>
                 <i className="devicon-nodejs-plain"></i>
