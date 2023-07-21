@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="navbar-section font-mono flex sm:px-32 sm:py-6 px-6 py-4 place-content-between items-center sticky top-0 bg-zinc-300">
+    <div className="navbar-section font-mono flex sm:px-32 sm:py-6 px-6 py-4 place-content-between items-center sticky top-0 bg-zinc-100">
       {" "}
       <div>
         <a className="brand-logo" href="#">
