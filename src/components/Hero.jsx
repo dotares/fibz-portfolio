@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div
       id="hero-section-id"
-      className="hero-section sm:px-0 px-5 flex flex-col place-items-center"
+      className="hero-section h-full sm:px-0 px-5 flex flex-col place-items-center"
     >
       <div>
         <img
