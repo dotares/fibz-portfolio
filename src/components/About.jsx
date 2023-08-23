@@ -1,9 +1,6 @@
 export default function About() {
   return (
-    <div
-      id="about"
-      className="about-section h-full py-4 pb-24 px-8 sm:px-32 bg-zinc-800 text-white"
-    >
+    <div id="about" className="about-section h-full py-4 pb-12 px-8 sm:px-32">
       <h2 className="secondary-header font-jetbrainsmono text-center text-xl sm:text-2xl">
         A little about <span className="text-bold text-white">me</span> 👨‍💻
       </h2>
