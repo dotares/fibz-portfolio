@@ -10,7 +10,7 @@ export default function Hero() {
         <img
           src={heroImage}
           alt="Hero Image"
-          className="rounded-full shadow-xl mb-8 shadow-zinc-950 h-40 sm:h-52"
+          className="rounded-full shadow-xl my-10 shadow-zinc-950 h-40 sm:h-52"
         />
       </div>
       <h1 className="primary-header text-center text-2xl sm:text-5xl font-jetbrainsmono mb-4">
